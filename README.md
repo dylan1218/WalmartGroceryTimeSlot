@@ -7,8 +7,10 @@ Query walmart grocery time slots
 
 (2) Obtain your user profile path from chrome (type chrome://version/ into chrome and copy text from profile path field) and enter into chromeoptions.add_argument method
 
-(3) Run the script one time initially and log into your walmart account. Then close the script (ctrl+c on windows from the command prompt)
+(3) Download chromedriver (https://chromedriver.chromium.org/downloads) and update the path variable where you save the chromedriver.exe
 
-(4) Run the script again and leave running
+(4) Run the script one time initially and log into your walmart account. Then close the script (ctrl+c on windows from the command prompt)
+
+(5) Run the script again and leave running
 
 Note: The script will stop executing when a date/time slot is found, however it currently will not actually click the "keep shopping" button which reserves your spot. For purposes of not overloading slots for everyone you'll still need to manually reserve the spot. 
